@@ -16,8 +16,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tmux-plugins/vim-tmux'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'funorpain/vim-cpplint'
+"Plugin 'Valloric/YouCompleteMe'
+"Plugin 'funorpain/vim-cpplint'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'vim-scripts/google.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
@@ -94,8 +94,8 @@ set backspace=2
 " Airline status line
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-let g:airline_powerline_fonts = 1  " Use the special font characters
-let g:airline#extensions#tabline#enabled = 1 "Display buffers as tab titles
+"let g:airline_powerline_fonts = 1  " Use the special font characters
+"let g:airline#extensions#tabline#enabled = 1 "Display buffers as tab titles
 let g:airline_theme='minimalist'
 command CmdLinePretty  :%s/ -/\\\r -/g
 command RemoveWhiteSpace :%s/\s\+$//
