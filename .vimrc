@@ -14,7 +14,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'scrooloose/nerdtree'
+Plugin 'preservim/nerdtree'
 Plugin 'tmux-plugins/vim-tmux'
 "Plugin 'Valloric/YouCompleteMe'
 "Plugin 'funorpain/vim-cpplint'
@@ -103,4 +103,6 @@ map <F2> :retab <cr>
 :set nowrap
 :highlight ExtraWhitespace ctermbg=red guibg=red
 :match ExtraWhitespace /\s\+$/
-
+:set mouse=a
+:highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+:match OverLength /\%81v.\+/
